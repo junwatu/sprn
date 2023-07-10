@@ -60,7 +60,7 @@ Edit file `_meta.json` and add the `2023-R013.mdx` to the top (if you want it to
 Edit file `index.mdx` in the same directory with the new release page.
 
 
-```tsx
+```ts
 import { Tab, Tabs } from 'nextra-theme-docs';
 import { Callout } from 'nextra-theme-docs';
 import Image from 'next/image';
@@ -90,7 +90,7 @@ Just make sure the link point to the right release page filename
 
 The final file content will be like this
 
-```
+```ts
 import { Tab, Tabs } from 'nextra-theme-docs';
 import { Callout } from 'nextra-theme-docs';
 import Image from 'next/image';
