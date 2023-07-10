@@ -1,6 +1,6 @@
 # How To Make A Release Note Page
 
-## Fork and Clone The Documentation Repo
+## Fork or Clone The Documentation Repo
 
 ```sh
 git clone https://github.com/roqtech/documentation.git
