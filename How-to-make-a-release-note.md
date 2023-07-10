@@ -88,6 +88,25 @@ Add this code to the top after `| ----- | -----|`
 Just make sure the link point to the right release page filename
 `/release-notes/2023-R013` (do not include `.mdx` extension).
 
+The final file content will be like this
+
+```
+import { Tab, Tabs } from 'nextra-theme-docs';
+import { Callout } from 'nextra-theme-docs';
+import Image from 'next/image';
+
+# ROQ Release Log
+
+| Release highlights                                                       | Date       |
+|--------------------------------------------------------------------------|------------|
+| [Fixes for environment synchronization and enhanced reliability in app generation with queue improvements](/release-notes/2023-R013) | 2023/07/10 |     
+| [Demo Data in Generated Apps, Pre-Flight Check & UI Enhancements!](/release-notes/2023-R012) | 2023/07/07 |     
+| [Project Access Management ](/release-notes/2023-R011)                   | 2023/06/13 |     
+| [Webhooks and other improvements ](/release-notes/2023-R003)             | 2023/06/06 |     
+| [Jupiter instance of ROQ Platform](/release-notes/2023-R002)             | 2023/03/29 |     
+| [Authenticaton and multi-tenancy improvements](/release-notes/2023-R001) | 2023/06/24 |
+```
+
 ### 4. Commit The Changes
 
 Commit the changes into your cloned repository. You can do this graphically or by command line, whichever you are familiar with.
