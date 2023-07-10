@@ -109,10 +109,8 @@ import Image from 'next/image';
 
 ### 4. Commit The Changes
 
-Commit the changes into your cloned repository. You can do this graphically or by command line, whichever you are familiar with.
+Commit the changes into your cloned repository.
 
 ### 5. Make A Pull Request
 
-After commit a changes you can make a Pull Request or PR to the ROQ documenation GitHub repo.
-
-
+After commit a changes you can make a Pull Request (PR) to the ROQ documentation GitHub repo.
