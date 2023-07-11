@@ -108,9 +108,7 @@ import Image from 'next/image';
 
 ### 4. Commit The Changes
 
-Commit the changes into your cloned repository. If you are using git command line run `git status`
-
-you will see something like this
+Commit the changes into your cloned repository. If you are using git command line run `git status`. You will see something like this:
 
 ```sh
 Changes not staged for commit:
@@ -125,7 +123,7 @@ Untracked files:
 
 ```
 
-you need to add the necessary files only. use `git add <file>`
+you need to add the changed files only. Use `git add <file>`
 
 ```sh
 git add release-notes/_meta.json release-notes/index.mdx images/2023-R013.mdx
@@ -149,9 +147,7 @@ git commit -m "your_commit_message_is_here"
 
 ### 5. Make A Pull Request
 
-After commit a changes you can make a Pull Request (PR) to the ROQ documentation GitHub repo.
-
-Update your remote branch by using this command
+After commit the changes you can make a Pull Request (PR) to the ROQ documentation GitHub repo. Update your remote branch by using this command:
 
 ```sh
 git push
@@ -166,5 +162,3 @@ then it will bring you to the **Open Pull Request** page.
 ![Open PR](/images/open-pull.png)
 
 Write a custom title if you have to and any necessary reasons behind this pull request.
-
-
