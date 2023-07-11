@@ -154,6 +154,17 @@ After commit a changes you can make a Pull Request (PR) to the ROQ documentation
 Update your remote branch by using this command
 
 ```sh
-git pull
+git push
 ```
+
+Go to the GitHub there will be a big green button with text **Compare & pull request**. Click that button,
+
+![PR](/images/pull-request.png)
+
+then it will bring you to the **Open Pull Request** page.
+
+![Open PR](/images/open-pull.png)
+
+Write a custom title if you have to and any necessary reasons behind this pull request.
+
 
