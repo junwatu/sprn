@@ -59,7 +59,6 @@ Edit file `_meta.json` and add the `2023-R013.mdx` to the top (if you want it to
 
 Edit file `index.mdx` in the same directory with the new release page.
 
-
 ```ts
 import { Tab, Tabs } from 'nextra-theme-docs';
 import { Callout } from 'nextra-theme-docs';
@@ -80,7 +79,7 @@ import Image from 'next/image';
 
 Add this code to the top after `| ----- | -----|`
 
-```
+```md
 | [Fixes for environment synchronization and enhanced reliability in app generation with queue improvements](/release-notes/2023-R013) | 2023/07/10 |     
 
 ```
@@ -109,8 +108,52 @@ import Image from 'next/image';
 
 ### 4. Commit The Changes
 
-Commit the changes into your cloned repository.
+Commit the changes into your cloned repository. If you are using git command line run `git status`
+
+you will see something like this
+
+```sh
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   release-notes/_meta.json
+        modified:   release-notes/index.mdx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        images/2023-R013.mdx
+
+```
+
+you need to add the necessary files only. use `git add <file>`
+
+```sh
+git add release-notes/_meta.json release-notes/index.mdx images/2023-R013.mdx
+```
+
+> note: you can add file one by one or just on line `git add filename1 filename2 filename3`
+
+Make sure the changes added to the repository, run this command again
+
+```sh
+git status
+```
+
+If there are no more untracked files left then you can commit it
+
+```sh
+git commit -m "your_commit_message_is_here"
+```
+
+> note: make the commit short
 
 ### 5. Make A Pull Request
 
 After commit a changes you can make a Pull Request (PR) to the ROQ documentation GitHub repo.
+
+Update your remote branch by using this command
+
+```sh
+git pull
+```
+
